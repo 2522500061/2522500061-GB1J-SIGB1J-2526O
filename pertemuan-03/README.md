@@ -1,1 +1,9 @@
 # pertemuan-03
+
+NIM : 2522500061<br>
+Nama : Savana Destiani<br>
+
+Hari ini, kamis 09 oktober 2025, saya mempelajari:
+<ol>    
+    <li>copy-paste isi emmet.html (pertemuan-02) ke index.html (pertemuan-03)</li>
+</ol>
