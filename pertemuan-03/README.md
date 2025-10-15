@@ -10,4 +10,6 @@ Hari ini, kamis 09 oktober 2025, saya mempelajari:
     <li>membuat styling untuk selector ID #about elemen h2</li>
     <li>membuat styling untuk selector ID #about elemen p</li>
     <li>membuat styling untuk selector ID #about elemen strong</li>
+    <li>membuat styling selection mode mobile<li>
+    <li>membuat styling contact <li>
 </ol>
