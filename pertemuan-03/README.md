@@ -13,4 +13,6 @@ Hari ini, kamis 09 oktober 2025, saya mempelajari:
     <li>membuat styling selection mode mobile<li>
     <li>membuat styling contact <li>
     <li>membuat styling contact h2
+    <li>membuat styling form<li>
+    
 </ol>
