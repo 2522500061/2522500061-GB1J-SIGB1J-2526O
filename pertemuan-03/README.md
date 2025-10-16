@@ -19,6 +19,9 @@ Hari ini, kamis 09 oktober 2025, saya mempelajari:
     <li>membuat styling textare<li>
     <li>membuat styling button<li>
     <li>menambahkan warna pada button<li>
+    <li>membuat styling untuk selector ID#about<li>
+    <li>membuat styling untuk selector ID#about elemen h2</li>
+    
     
 
 </ol>
