@@ -18,4 +18,7 @@ Hari ini, kamis 09 oktober 2025, saya mempelajari:
     <li>membuat styling input<li>
     <li>membuat styling textare<li>
     <li>membuat styling button<li>
+    <li>menambahkan warna pada button<li>
+    
+
 </ol>
