@@ -16,5 +16,6 @@ Hari ini, kamis 09 oktober 2025, saya mempelajari:
     <li>membuat styling form<li>
     <li>membuat styling label<li>
     <li>membuat styling input<li>
+    <li>membuat styling textare<li>
     
 </ol>
