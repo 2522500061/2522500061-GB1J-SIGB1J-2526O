@@ -15,5 +15,6 @@ Hari ini, kamis 09 oktober 2025, saya mempelajari:
     <li>membuat styling contact h2
     <li>membuat styling form<li>
     <li>membuat styling label<li>
+    <li>membuat styling input<li>
     
 </ol>
