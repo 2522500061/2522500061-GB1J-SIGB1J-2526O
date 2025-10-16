@@ -4,6 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Document </title>
+		<style>
+			#about {
+				background-color: rgb(157, 255, 242);
+				border-radius: 7px;
+				padding: 20px;
+				max-width: 700px;
+				margin: 20px auto;
+				box-shadow: 0 2px 5px rgb(92, 202, 188);
+			}
+		</style>
 </head>
 <body>
   <header>
@@ -35,11 +45,24 @@
         <p><strong>Nama Ibu  : </strong> Sumarni</p>
         <p><strong>Nama Abang : </strong>Ziyan Zahran, Dovan Indrawan</p>
         <p>ini emoji nya &#9786; &#128525;</p>
-       
     </section>
     <section id="contact">
-        <h2>Kontak kami</h2>
-        <p>Contoh form <p>
+    	<h2>Kontak kami</h2>
+
+      	<form action="" method="get">
+
+						<label for="txtNama">Nama:</label>
+						<input type="text" id="txtNama" name="txtNama" placeholder="Masukkan Nama" required autocomplete="name">
+
+						<label for="txtEmail">Email:</label>
+						<input type="text" id="txtEmail" name="txtEmail" placeholder="Masukkan Email" required autocomplete="email">
+
+						<label for="txtPesan">Pesan:</label>
+						<textarea id="txtPesan" name="txtPesan" rows="4" placeholder="Tulis Pesan Anda..." required></textarea>
+
+						<button type="submit">Kirim</button>
+						<button type="reset">Batal</button>
+				</form>
     </section>
   </main>
   <footer>
