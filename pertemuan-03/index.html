@@ -1,155 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>judul halaman</title>
+		<style>
+			#about {
+				background-color: rgb(57, 201, 226);
+				border-radius: 10px;
+				padding: 20px;
+				max-width: 700px;
+				margin: 20px auto;
+				box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+			}
 
-    <title>judul halaman</title>
-    <style>
+			#about h2 {
+				color: rgb(27, 69, 104);
+				border-bottom: 2px solid rgb(37, 21, 184);
+				padding-bottom: 6px;
+				margin-top: 0;
+				margin-bottom: 16px;
+			}
 
-        #about {
-            background-color: rgb(57, 201, 226);
-            border-radius: 10px;
-            padding: 20px;
-            max-width: 700px;
-            margin: 20px auto;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
+			#about p {
+				display: flex;
+				justify-content: flex-start;
+				align-items: baseline;
+				margin: 0;
+				padding: 6px 0;
+				border-bottom: 1px solid rgb(255, 255, 255);
+			}
+			#about strong {
+				min-width: 180px;
+				color: rgb(46, 64, 235);
+				font-weight: 600;
+				text-align: right;
+				padding-right: 16px;
+				flex-shrink: 0;
+			}
 
-        #about h2 { 
-        color: rgb(27, 69, 104);
-    border-bottom: 2px solid rgb(37, 21, 184);
-    padding-bottom: 6px ;
-    margin-top: 0;
-    margin-bottom: 16px;
-}
-
-#about p {
-    display: flex;
-    justify-content: flex-start;
-    align-items: baseline;
-    margin: 0;
-    padding: 6px 0;
-    border-bottom: 1px solid rgb(255, 255, 255);
-}
-#about strong {
-    min-width: 180px;
-    color: rgb(46, 64, 235);
-    font-weight: 600;
-    text-align: right;
-    padding-right: 16px;
-    flex-shrink: 0;
-}
-
-@media (max-width: 600px)
-{ #about p { flex-direction: column;
-align-items: flex-start;}
-#about strong {
-    text-align: left;
-    padding-right: 0;
-    margin-bottom: 2px;
-}
-}
-    </style>
-    </head>
-<body>
- 
-    <section id="About">
-        <h2>Tentang Saya</h2>
-        <p><strong>NiM :</strong> 2522500061</p>
-        <p><strong>Nama Lengkap :</strong> Savana Destiani &#128526;</p>
-        <p><strong>Tempat Lahir:</strong> Pangkalpinang</p>
-        <p><strong>Tanggal Lahir:</strong> 17-Desember-2007</p>
-        <p><strong>Hobby:</strong> Bernyanyi &#127926:;</p>
-        <p><strong>Pasangan :</strong> Belum ada &hearts;</p>
-        <p><strong>Pekerjaan:</strong> mahasiswa &copy; 2025</p>
-        <p><strong>Nama Ayah :</strong> Agus sani</p>
-        <p><strong>Nama Ibu  :</strong> Sumarni</p>
-        <P><strong>Nama Abang:</strong> Ziyan Zahran, Dovan Indrawan</P>
-        <p>ini emoji nya &#9786; &#128525;</p>
-
-
-<style>
-    #contact {
-          background-color: rgb(248, 22, 229);
-            border-radius: 10px;
-            padding: 20px;
-            max-width: 700px;
-            margin: 20px auto;
-}#Contact h2 {
-        color: #000000;
-        border-bottom: 2px solid #003366;
-        padding-bottom: 6px;
-        margin-top: 0;
-        margin-bottom: 24px;
-        text-align: center;
-    }
-
-form {
-    display: flex;
-    flex-direction: column;
-
-}
-label{
-    margin-top: 16px;
-    font-weight: 600;
-    color: hotpink;
-
-}
-
-input[type="text"],
-    input[type="email"],
-        input[type="pesan"],
-
-textare {
-    margin-top: 6px;
-    padding: 10px;
-    border: 1px solid #003366;
-    border-radius: 6px;
-    font-size: 14px;
-    resize: vertical;
-}
-
-button[type="submit"],
-button[type="reset"] {
-    margin-top: 20px;
-    padding: 12px;
-    border: none;
-    border-radius: 6px;
-    font-weight: 600;
-    font-size: 16px;
-}
-
-button[type="submit"] {
-    background-color:#003366;
-    color: darksalmon;
-}
-
-    
-
-</style>
-       
-
-
+			@media (max-width: 600px) {
+				#about p {
+					flex-direction: column;
+					align-items: flex-start;
+				}
+				#about strong {
+					text-align: left;
+					padding-right: 0;
+					margin-bottom: 2px;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<section id="About">
+			<h2>Tentang Saya</h2>
+			<p><strong>NiM :</strong> 2522500061</p>
+			<p><strong>Nama Lengkap :</strong> Savana Destiani &#128526;</p>
+			<p><strong>Tempat Lahir:</strong> Pangkalpinang</p>
+			<p><strong>Tanggal Lahir:</strong> 17-Desember-2007</p>
+			<p><strong>Hobby:</strong> Bernyanyi &#127926:;</p>
+			<p><strong>Pasangan :</strong> Belum ada &hearts;</p>
+			<p><strong>Pekerjaan:</strong> mahasiswa &copy; 2025</p>
+			<p><strong>Nama Ayah :</strong> Agus sani</p>
+			<p><strong>Nama Ibu  :</strong> Sumarni</p>
+			<p><strong>Nama Abang:</strong> Ziyan Zahran, Dovan Indrawan</p>
+			<p>ini emoji nya &#9786; &#128525;</p>
     </section>
-    <section id="Contact">
-        <h2>Kontak kami</h2
-
-      form action="" method="get">
-
-    <label for="txtNama">Nama:</label>
-    <input type="text" id="txtNama" name="txtNama" placeholder="Masukkan Nama" required autocomplete="name">
-
-    <label for="txtEmail">Email:</label>
-    <input type="text" id="txtEmail" name="txtEmail" placeholder="Masukkan Email" required autocomplete="email">
-
-    <label for="txtPesan">Pesan:</label>
-    <textarea id="txtPesan" name="txtPesan" rows="4" placeholder="Tulis Pesan Anda..." required></textarea>
-
-    <button type="submit">Kirim</button>
-    <button type="reset">Batal</button>
-
-      
-</form>
-    </section>
-  </main>
-  <footer>
-    <p>&copy; 2025 Savana Destiani [2522500061] </p>
-  </footer>
-</body>
+	</body>
 </html>
