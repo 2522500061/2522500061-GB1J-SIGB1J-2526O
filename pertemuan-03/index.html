@@ -15,14 +15,17 @@
 			}
 			
 			#about h2 {
+			#contacth2 {
 				color: rgb(176, 185, 185);
 				border-bottom: 2px solid(207, 40, 124);
 				padding-bottom: 6px;
 				margin-top: 0;
 				margin-bottom: 16p;
 			}
+			}
 			
 			#about p {
+			#contact label {
 				display: flex;
 				justify-content: flex-start;
 				align-items: baseline;
@@ -30,8 +33,10 @@
 				padding: 6px 0;
 				border-bottom: 1px rgb(209, 40, 21);
 			}
+			}
 
 			#about strong	{
+			#contact label>span {
 				min-width: 180px;
 				color: rgb(212, 64, 143);
 				font-weight: 600;
@@ -39,6 +44,34 @@
 				padding-right: 16px;
 				flex-shrink: 0;
 			}
+			}
+
+
+			#contact input,
+			#contact textarea {
+				flex: 1;
+				border: 1px solid #ccc;
+				border-radius: 6px;
+				padding: 8px;
+				color: #000;
+				font-weight: normal;
+				margin: 0;
+				box-sizing: border-box;
+			}
+
+			#contact button {
+				margin-top: 10px;
+				display: inline-block;
+				padding: 10px 24px;
+				font-size: 16px;
+				border-radius: 6px;
+				cursor: pointer;
+				border: none;
+				transition: all 0.3s ease;
+				margin-right: 8px;
+			}
+
+		#contact button [type="submit"]
 
 		</style>
 </head>
