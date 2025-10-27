@@ -8,6 +8,8 @@ Hari ini, senin 27 oktober 2025, saya mempelajari:
 <li> membuat aturan  css untuk body dan global reset </li>
 <li> membuat styling header </li>
 <li> membuat styling section#home </li>
+<li> membuat styling foother </li>
+
 
 
 
