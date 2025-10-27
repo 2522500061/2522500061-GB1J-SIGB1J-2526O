@@ -11,6 +11,7 @@ Hari ini, senin 27 oktober 2025, saya mempelajari:
 <li> membuat styling foother </li>
 <li> membuat styling navigasi </li>
 <li> membuat styling header mode mobile </li>
+<li> membuat styling navigasi mode mobile </li>
 
 
 
