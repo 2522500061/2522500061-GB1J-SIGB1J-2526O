@@ -30,3 +30,7 @@ header li a {
     text-decoration: none;
     padding: 6px 12px;
 }
+
+#home p {
+    text-align: justify;
+}
