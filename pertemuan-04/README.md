@@ -6,6 +6,8 @@ Hari ini, senin 27 oktober 2025, saya mempelajari:
 <li> mencopy index.html dari pertemuan-03 ke pertemuan-04 </li>
 <li> membuat file css </li>
 <li> membuat aturan  css untuk body dan global reset </li>
+<li> membuat styling header </li>
+
 
 
 <ol>    
