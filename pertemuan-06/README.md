@@ -8,7 +8,9 @@ Hari ini, selasa 4 November  2025, saya mempelajari:
     <li> mencopy item </li>
     <li> Membuat variabel second about </li>
     <li> membuat variabel nilai section ipk </li>
+    <li> membuat variabel nilai akhir </li>
     
+
 
 
 
