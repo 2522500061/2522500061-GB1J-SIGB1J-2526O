@@ -291,7 +291,13 @@
         $bobot3=$mutu3 * $sksmatkul3;
         $bobot4=$mutu4 * $sksmatkul4;
         $bobot5=$mutu5 * $sksmatkul5;
-        
+
+        $totalbobot= $bobot1 + $bobot2 + $bobot3 + $bobot4 + $bobot5;  
+        $totalsks= $sksmatkul1 + $sksmatkul2 + $sksmatkul3 + $sksmatkul4 + $sksmatkul5;
+        $ipk= $totalbobot/$totalsks;     
+        ?>
+
+
 	 	<section id="contact">
     	<h2>Kontak kami</h2>
 
