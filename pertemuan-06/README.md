@@ -5,7 +5,11 @@ Nama : Savana Destiani<br>
 Hari ini, selasa 4 November  2025, saya mempelajari:
 <ol>    
     <li> membuat file hello.php </li>
-    
+    <li> mencopy item </li>
+    <li> Membuat variabel second about </li>
+
+
+
 
 
 
