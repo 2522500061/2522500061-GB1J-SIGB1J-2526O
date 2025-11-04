@@ -286,6 +286,11 @@
             }
         }
 
+        $bobot1=$mutu1 * $sksmatkul1;
+        $bobot2=$mutu2 * $sksmatkul2;
+        $bobot3=$mutu3 * $sksmatkul3;
+        $bobot4=$mutu4 * $sksmatkul4;
+        $bobot5=$mutu5 * $sksmatkul5;
         
 	 	<section id="contact">
     	<h2>Kontak kami</h2>
