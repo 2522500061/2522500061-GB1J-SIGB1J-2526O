@@ -12,7 +12,9 @@ Hari ini, selasa 4 November  2025, saya mempelajari:
     <li> membuat perhitungan nilai akhir 1 </li>
     <li> membuat perhitungan nilai akhir 2 </li>
     <li> membuat perhitungan nilai akhir 3 </li>
+    <li> membuat perhitungan nilai akhir 4 </li>
     
+
 
 
 
