@@ -11,7 +11,9 @@ Hari ini, selasa 4 November  2025, saya mempelajari:
     <li> membuat variabel nilai akhir </li>
     <li> membuat perhitungan nilai akhir 1 </li>
     <li> membuat perhitungan nilai akhir 2 </li>
+    <li> membuat perhitungan nilai akhir 3 </li>
     
+
 
 
 
