@@ -24,17 +24,30 @@
         <p>Ini contoh paragraf HTML.</p>
     </section>
     <section id="about">
+        <?php
+        $NIM="2522500061";
+        $NAMA="SAVANA DESTIANI";
+        $TEMPATLAHIR="PANGKALPINANG";
+        $TANGGALLAHIR="17 DESEMBER 2007";
+        $HOBBY="BERNYANYI";
+        $PASANGAN="BELUM ADA";
+        $PEKERJAAN="MAHASISWA";
+        $NAMAAYAH="AGUS SANI";
+        $NAMAIBU="SUMARNI";
+        $NAMAABANG="ZIYAN ZAHRAN, DOVAN INDRAWAN"; 
+        ?>
+
         <h2>Tentang Saya</h2>
-        <p><strong>NiM :</strong>2522500061</p>
-        <p><strong>Nama Lengkap:</strong>Savana Destiani &#128526;</p>
-        <p><strong>Tempat Lahir:</strong>Pangkalpinang</p>
-        <p><strong>Tanggal Lahir : </strong> 17-Desember-2007</p>
-        <p><strong>Hobby:</strong> Bernyanyi &#127926:;</p>
-        <p><strong>Pasangan :</strong> Belum ada &hearts;</p>
-        <p><strong>Pekerjaan: </strong> mahasiswa &copy; 2025</p>
-        <p><strong>Nama Ayah : </strong> Agus sani</p>
-        <p><strong>Nama Ibu  : </strong> Sumarni</p>
-        <p><strong>Nama Abang : </strong>Ziyan Zahran, Dovan Indrawan</p>
+        <p><strong>NiM :</strong><?php echo $NIM; ?></p>
+        <p><strong>Nama Lengkap:</strong><?php echo $NAMA; ?></p>
+        <p><strong>Tempat Lahir:</strong><?php echo $TEMPATLAHIR; ?></p>
+        <p><strong>Tanggal Lahir : </strong><?php echo $TANGGALLAHIR; ?></p>
+        <p><strong>Hobby:</strong><?php echo $HOBBY; ?></p>
+        <p><strong>Pasangan :</strong><?php echo $PASANGAN; ?></p>
+        <p><strong>Pekerjaan: </strong><?php echo $PEKERJAAN; ?></p>
+        <p><strong>Nama Ayah : </strong><?php echo $NAMAAYAH; ?></p>
+        <p><strong>Nama Ibu  : </strong><?php echo $NAMAIBU; ?></p>
+        <p><strong>Nama Abang : </strong><?php echo $NAMAABANG; ?></p>
         <p>ini emoji nya &#9786; &#128525;</p>
     </section>
 
