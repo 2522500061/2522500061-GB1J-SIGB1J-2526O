@@ -78,20 +78,21 @@ header li a:active {
 				box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1)
 			}
 
-			#about h2, #contact h2, #home h2,#ipk h2 {
+			#about h2, #contact h2, #home h2, #ipk h2 {
 				color: black;
 				border-bottom: 2px solid;
 				padding-bottom: 6px;
 				margin-top:0;
 				margin-bottom: 16px
 			}
+    
 			
 			#About h2, #Contact h2 {
 				font-size:30px;
 			}
 
 
-			#About p , #Contact label {
+			#About p , #Contact label , #ipk p {
 				display: flex;
 				justify-content: flex-start;
 				align-items: baseline;
@@ -99,6 +100,10 @@ header li a:active {
 				padding:6px 0;
 				border-bottom:2px solid #000000;
 
+			}
+
+			h3 {
+				text-align: center;
 			}
 
 			#About strong, #Contact label>span {
@@ -111,6 +116,71 @@ header li a:active {
 			
 			}
 
+				#Contact input, #Contact textarea, #Contact button {width: 100%;}
+
+			#Contact input, #Contact textarea {
+				flex: 1;
+				border: 1px solid;
+				border-radius: 6px;
+				padding: 8px;
+				color: #ba00c0;
+				font-weight: normal;
+				margin: 0;
+				box-sizing: border-box;
+			}
+
+			#Contact button {
+				margin-top: 10px;
+				display: inline-block;
+				padding: 10px 24px;
+				font-size: 16px;
+				border-radius: 6px;
+				cursor: pointer;
+				border: none;
+				transition: all 0.3s ease;
+				margin-right: 8px;
+			}
+		
+		#Contact button[type="submit"]{
+			background-color:  #fafad2;
+			font-weight: 600;
+			color:#ba00c0 
+			
+
+		}
+
+	#Contact button [type="reset"]{
+		font-weight: 600;
+		background-color: #ba00c0
+		color(srgb rgb(219, 158, 158) rgb(155, 165, 155) rgb(199, 199, 255))
+		
+	}
+
+	#Contact button[type="submit"] :hover {
+		background-color: #fafad2;
+		transform: translateY(-1px);
+		box-shadow: -5px -5px 10px grey , 5px 5px 10px black;
+
+	}
+
+	#Contact button[type="reset"]:hover {
+		background-color: #fafad2;
+		transform: translateY(-1px);
+		box-shadow: -5px -5px 10px grey,5px 5px 10px black;
+
+	}
+
+ #about, #contact , #ipk {
+
+background: linear-gradient(45deg, #ff9ff3 , #feca57 , #54a0ff , #5f27cd);
+background-size: 800% 800%;
+animation: wave 5s ease infinite; }
+@keyframes wave {
+	0% {background-position: 0% 50%; }
+	50% {background-position: 100% 50%; }
+	100% { background-position: 0% 50%; }
+
+}
 
 			@media (max-width:600px) {
             nav.active {
@@ -166,68 +236,4 @@ header li a:active {
 				}
 			} 
 
-			#Contact input, #Contact textarea, #Contact button {width: 100%;}
-
-			#Contact input, #Contact textarea {
-				flex: 1;
-				border: 1px solid;
-				border-radius: 6px;
-				padding: 8px;
-				color: #ba00c0;
-				font-weight: normal;
-				margin: 0;
-				box-sizing: border-box;
-			}
-
-			#Contact button {
-				margin-top: 10px;
-				display: inline-block;
-				padding: 10px 24px;
-				font-size: 16px;
-				border-radius: 6px;
-				cursor: pointer;
-				border: none;
-				transition: all 0.3s ease;
-				margin-right: 8px;
-			}
 		
-		#Contact button[type="submit"]{
-			background-color:  #fafad2;
-			font-weight: 600;
-			color:#ba00c0 
-			
-
-		}
-
-	#Contact button [type="reset"]{
-		font-weight: 600;
-		background-color: #ba00c0
-		color(srgb rgb(219, 158, 158) rgb(155, 165, 155) rgb(199, 199, 255))
-		
-	}
-
-	#Contact button[type="submit"] :hover {
-		background-color: #fafad2;
-		transform: translateY(-1px);
-		box-shadow: -5px -5px 10px grey , 5px 5px 10px black;
-
-	}
-
-	#Contact button[type="reset"]:hover {
-		background-color: #fafad2;
-		transform: translateY(-1px);
-		box-shadow: -5px -5px 10px grey,5px 5px 10px black;
-
-	}
-
- #about, #contact {
-
-background: linear-gradient(45deg, #ff9ff3 , #feca57 , #54a0ff , #5f27cd);
-background-size: 800% 800%;
-animation: wave 5s ease infinite; }
-@keyframes wave {
-	0% {background-position: 0% 50%; }
-	50% {background-position: 100% 50%; }
-	100% { background-position: 0% 50%; }
-
-}

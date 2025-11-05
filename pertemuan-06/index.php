@@ -15,6 +15,7 @@
             <li><a href="#home">Beranda</a></li>
             <li><a href="#about">Tentang</a></li>
             <li><a href="#contact">Contact</a></li>
+             <li><a href="#ipk">nilai</a></li>
         </ul>
     </nav>
   </header>
@@ -50,7 +51,10 @@
         <p><strong>Nama Abang : </strong><?php echo $NAMAABANG; ?></p>
         <p>ini emoji nya &#9786; &#128525;</p>
     </section>
-    <section id="ipk"
+    
+    <section id="ipk">
+    <?php
+
      $namamatkul1='Aplikasi Perkantoran';
         $sksmatkul1='3';
         $nilaihadir1='90';
@@ -297,7 +301,7 @@
         $ipk= $totalbobot/$totalsks;     
         ?>
 
-        <h2>nilai saya</h2>
+        <h2> Nilai saya</h2>
 
         <h3>MataKuliah 1</h3>
         <p><strong>Nama MataKuliah 1:</strong> <?php echo $namamatkul1; ?></p>
