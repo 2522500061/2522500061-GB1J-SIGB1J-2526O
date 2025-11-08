@@ -10,6 +10,9 @@ Hari ini, selasa 8 November  2025, saya mempelajari:
     <li> menambahkan pesan ke proses.php </li>
     <li> isi file  proses.php </li>
     <li> mengambil variabel  form dengan txt </li>
+    <li> menambahkan session_start di file  index.php </li>
+    <li> menambahkan variabel session </li>
+    
 
 
 
