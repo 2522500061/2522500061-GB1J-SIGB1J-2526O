@@ -101,10 +101,19 @@ endif;
         <button type="submit">Kirim</button>
         <button type="reset">Batal</button>
 
+        <?php if (!empty($akunama)): ?>
+        <?php if (!empaty($akuemail)): ?>
+        <?php if (!empty($akupesan)): ?>
+
           <h2>Siapa Kamu?, Yang menghubungi kami!</h2>
         <p><strong>Nama :</strong><?php echo $akunama; ?> </p>
         <p><strong>Email :</strong><?php echo $akuemail; ?></p>
         <p><strong>Pesan :</strong><?php echo $akupesan; ?></p>
+
+      <?php endif; ?>
+      <?php endif; ?>
+      <?php endif; ?>
+      
       </form>
     </section>
   </main>
