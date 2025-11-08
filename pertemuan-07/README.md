@@ -9,7 +9,9 @@ Hari ini, selasa 8 November  2025, saya mempelajari:
     <li> memberikan perintah ke halaman proses.php </li>
     <li> menambahkan pesan ke proses.php </li>
     <li> isi file  proses.php </li>
-    
+    <li> mengambil variabel  form dengan txt </li>
+
+
 
 
 

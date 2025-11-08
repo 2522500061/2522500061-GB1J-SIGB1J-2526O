@@ -1,3 +1,11 @@
+<?php session_start ();
+
+$akunama = $_SESSION["txtNama"];
+$akuemail = $_SESSION["txtEmail"];
+$akupesan = $_SESSION["txtPesan"];
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
