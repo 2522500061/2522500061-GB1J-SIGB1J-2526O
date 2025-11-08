@@ -14,6 +14,8 @@ Hari ini, selasa 8 November  2025, saya mempelajari:
     <li> menambahkan variabel session </li>
     <li> menambahkan file penghancur.php </li>
     <li> menambahkan variabel session di file penghancur.php </li>
+    <li> menambahkan variabel $aku untuk menampilkan paragraf di index.php</li>
+    
 
 
 

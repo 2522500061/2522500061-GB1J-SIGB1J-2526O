@@ -1,8 +1,19 @@
 <?php session_start ();
 
-$akunama = $_SESSION["txtNama"];
+$akunama="";
+if (isset($_SESSION["txtNama"])) :
+$akunama =$_SESSION ["txtNama"];
+endif;
+
+$akuemail="";
+if (isset ($_SESSION["txtEmail"])) :
 $akuemail = $_SESSION["txtEmail"];
+endif;
+
+$akupesan="";
+if (isset($_SESSION["txtPesan"])) :
 $akupesan = $_SESSION["txtPesan"];
+endif;
 
 ?>
 
@@ -89,7 +100,7 @@ $akupesan = $_SESSION["txtPesan"];
 
         <button type="submit">Kirim</button>
         <button type="reset">Batal</button>
-        
+
           <h2>Siapa Kamu?, Yang menghubungi kami!</h2>
         <p><strong>Nama :</strong><?php echo $akunama; ?> </p>
         <p><strong>Email :</strong><?php echo $akuemail; ?></p>
