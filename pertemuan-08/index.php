@@ -36,6 +36,7 @@ endif;
     <nav>
       <ul>
         <li><a href="#home">Beranda</a></li>
+        <li><a href="#biodata">Biodata</a></li>
         <li><a href="#about">Tentang</a></li>
         <li><a href="#contact">Kontak</a></li>
       </ul>
@@ -60,6 +61,7 @@ endif;
       $Nama = 'Al\'kautar Benyamin';
       $tempat = "Jebus";
       ?>
+
       <h2>Tentang Saya</h2>
       <p><strong>NIM:</strong>
         <?php

@@ -9,4 +9,5 @@ Hari ini, Rabu 12.NOV.2025, saya:<br>
 Proses saya mengerjakan UTS ini sebagai berikut:<br>
 <ol>
   <li> unduh bahan uts pwd peretemuan-08 dan meng extrac filenya </li>
+  <li> membuat section id biodata di file index.php </li>
 </ol>
