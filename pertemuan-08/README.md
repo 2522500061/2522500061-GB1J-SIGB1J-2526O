@@ -11,12 +11,12 @@ Proses saya mengerjakan UTS ini sebagai berikut:<br>
   <li> unduh bahan uts pwd peretemuan-08 dan meng extrac filenya </li>
   <li> membuat section id biodata di file index.php </li>
   <li> membuat section biodata nim dan lain lain sesuai dengan di soal uts </li>
-  <li> me style.csss pertemuan-08
+  <li> me style.csss pertemuan-08 </li>
   <li> ubah style css pertemuan-08 </li>
   <li> mengubah index.php </li>
   <li> mengubah file script.js </li>
-
-
+  <li> mengubah section contact </li>
+  
 
 
 
