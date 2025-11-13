@@ -13,6 +13,8 @@ Proses saya mengerjakan UTS ini sebagai berikut:<br>
   <li> membuat section biodata nim dan lain lain sesuai dengan di soal uts </li>
   <li> me style.csss pertemuan-08
   <li> ubah style css pertemuan-08 </li>
+  <li> mengubah index.php </li>
+  
 
 
 
