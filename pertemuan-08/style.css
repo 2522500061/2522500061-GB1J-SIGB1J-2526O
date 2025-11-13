@@ -5,14 +5,14 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #f5f5f5;
-  color: #333;
+  background: #d60a0a;
+  color: #d3dfd5;
   line-height: 1.5;
 }
 
 header {
   background: #003366;
-  color: #fff;
+  color: #e9ecea;
   padding: 20px;
   text-align: center;
 }
@@ -26,7 +26,7 @@ header ul {
 }
 
 header li a {
-  color: #fff;
+  color: #0c0808;
   text-decoration: none;
   padding: 6px 12px;
 }
@@ -38,33 +38,32 @@ header li a:hover {
 }
 
 header li a:focus {
-  outline: 2px solid #fff;
+  outline: 2px solid hsl(114, 33%, 88%);
   outline-offset: 2px;
   border-radius: 6px;
-  background-color: rgba(255, 255, 255, 0.15);
+  background-color: rgba(109, 93, 93, 0.15);
 }
 
 header li a:active {
-  background-color: #cc04a1;
+  background-color: #f51aea;
   transform: translateY(1px);
 }
 
 #home:target~header nav a[href="#home"],
 #about:target~header nav a[href="#about"],
 #contact:target~header nav a[href="#contact"] {
-  background: #fff;
+  background: #f0f3f0;
   color: #003366;
   font-weight: bold;
   border-radius: 6px;
   transition: all 0.3s ease;
 }
 
-#home h2,
-#about h2,
-#contact h2,
-#biodata h2, {
-  background-color: #ffffff;
-  border radius : 10px;
+#home,
+#about,
+#contact {
+  background-color: #eff1ef;
+  border-radius: 10px;
   padding: 20px;
   max-width: 700px;
   margin: 20px auto;
@@ -73,8 +72,7 @@ header li a:active {
 
 #home h2,
 #about h2,
-#contact h2,
-#biodata h2, {
+#contact h2 {
   color: #003366;
   border-bottom: 2px solid #003366;
   padding-bottom: 6px;
@@ -87,19 +85,17 @@ header li a:active {
 }
 
 #about p,
-#contact label,
-#biodata label, {
+#contact label {
   display: flex;
   justify-content: flex-start;
   align-items: baseline;
   margin: 0;
   padding: 6px 0;
-  border-bottom: 1px solid #e6e6e6;
+  border-bottom: 1px solid #eff5ee;
 }
 
 #about strong,
-#contact label>span,
-#biodata label>span, {
+#contact label>span {
   min-width: 180px;
   color: #003366;
   font-weight: 600;
@@ -109,11 +105,9 @@ header li a:active {
 }
 
 #contact input,
-#contact textarea,
-#biodata input,
-#biodata textarea, {
+#contact textarea {
   flex: 1;
-  border: 1px solid #ccc;
+  border: 1px solid #f2f5f2;
   border-radius: 6px;
   padding: 8px;
   color: #000;
@@ -122,7 +116,7 @@ header li a:active {
   box-sizing: border-box;
 }
 
-#contact button, #biodata button {
+#contact button {
   margin-top: 10px;
   display: inline-block;
   padding: 10px 24px;
@@ -134,32 +128,32 @@ header li a:active {
   margin-right: 8px;
 }
 
-#contact button, #biodata button[type="submit"] {
+#contact button[type="submit"] {
   background-color: #003366;
   color: #fff;
   font-weight: 600;
 }
 
-#contact button, #biodata button[type="reset"] {
-  background-color: #b4b4b4;
+#contact button[type="reset"] {
+  background-color: #3bb7c7;
   color: #272727;
   font-weight: 500;
 }
 
-#contact button, #biodata button[type="submit"]:hover {
-  background-color: #0379ee;
+#contact button[type="submit"]:hover {
+  background-color: #f58e18;
   transform: translateY(-1px);
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
-#contact button, #biodata button[type="reset"]:hover {
-  background-color: #cccccc;
+#contact button[type="reset"]:hover {
+  background-color: #250707;
   transform: translateY(-1px);
 }
 
 footer {
-  background: #222;
-  color: #aaa;
+  background: #b60b74;
+  color: #1e39d6;
   text-align: center;
   padding: 10px;
 }
@@ -168,7 +162,7 @@ footer {
   display: none;
   background: none;
   border: none;
-  color: #fff;
+  color: #3c4b52;
   font-size: 28px;
   cursor: pointer;
 }
@@ -184,7 +178,7 @@ footer {
   nav {
     display: none;
     flex-direction: column;
-    background: #003366;
+    background: #8aca22;
     width: 100%;
     padding: 5px 0;
   }
@@ -216,8 +210,8 @@ footer {
   header li a {
     display: block;
     padding: 12px 14px;
-    border: 1px solid rgba(255, 255, 255, .35);
-    background: rgba(255, 255, 255, .08);
+    border: 1px solid rgba(145, 21, 21, 0.35);
+    background: #8046ec14;
     backdrop-filter: saturate(120%);
   }
 
