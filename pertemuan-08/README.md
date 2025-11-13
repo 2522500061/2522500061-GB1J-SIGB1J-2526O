@@ -14,8 +14,8 @@ Proses saya mengerjakan UTS ini sebagai berikut:<br>
   <li> me style.csss pertemuan-08
   <li> ubah style css pertemuan-08 </li>
   <li> mengubah index.php </li>
-  <li> mengubah file script.js
-  
+  <li> mengubah file script.js </li>
+
 
 
 

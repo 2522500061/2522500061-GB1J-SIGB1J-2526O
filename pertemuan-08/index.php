@@ -51,7 +51,7 @@ $sesnamaadik = $_SESSION["txtnamaadik"] ?? "";
 
     <section id="about">
       <?php
-          $nim = "2522500067";
+          $nim = "2522500061";
           $Nama_Lengkap = "SAVANA DESTIANI;";
           $Tempat_Lahir = "Pangkalpinang";
           $Tanggal_Lahir = "17-12-2007";
