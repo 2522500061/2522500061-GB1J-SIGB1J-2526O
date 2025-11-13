@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
             wrapper.appendChild(counter);
             textarea.style.width = '100%';
             textarea.style.boxSizing = 'border-box';
-            counter.style.color = '#555';
+            counter.style.color = '#b6ababff';
             counter.style.fontSize = '14px';
             counter.style.marginTop = '4px';
         }
@@ -127,7 +127,7 @@ document.querySelector("form").addEventListener("submit", function (e) {
         e.preventDefault();
     } else {
         alert("Terima kasih, " + nama.value + "!\nPesan Anda telah dikirim.");
-        //e.target.reset();
+        
         e.target.submit();
     }
 });
