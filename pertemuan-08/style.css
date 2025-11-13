@@ -5,14 +5,14 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #d60a0a;
-  color: #d3dfd5;
+  background: #05111a;
+  color: #0b110c;
   line-height: 1.5;
 }
 
 header {
-  background: #003366;
-  color: #e9ecea;
+  background: #331683;
+  color: #a71694;
   padding: 20px;
   text-align: center;
 }
@@ -32,13 +32,13 @@ header li a {
 }
 
 header li a:hover {
-  background-color: #85020d;
+  background-color: #a51357;
   border-radius: 6px;
   transition: background-color 0.3s ease;
 }
 
 header li a:focus {
-  outline: 2px solid hsl(114, 33%, 88%);
+  outline: 2px solid hsl(120, 43%, 3%);
   outline-offset: 2px;
   border-radius: 6px;
   background-color: rgba(109, 93, 93, 0.15);
@@ -52,7 +52,7 @@ header li a:active {
 #home:target~header nav a[href="#home"],
 #about:target~header nav a[href="#about"],
 #contact:target~header nav a[href="#contact"] {
-  background: #f0f3f0;
+  background: #071107;
   color: #003366;
   font-weight: bold;
   border-radius: 6px;
@@ -130,7 +130,7 @@ header li a:active {
 
 #contact button[type="submit"] {
   background-color: #003366;
-  color: #fff;
+  color: #108291;
   font-weight: 600;
 }
 
@@ -152,7 +152,7 @@ header li a:active {
 }
 
 footer {
-  background: #b60b74;
+  background: #0e8a33;
   color: #1e39d6;
   text-align: center;
   padding: 10px;
