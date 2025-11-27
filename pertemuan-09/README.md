@@ -18,5 +18,5 @@ Hari ini, KAMIS 27 NOVEMBER 2025, saya belajar :<br>
   <li>echo session ke nilai label section contact</li>
   <li>echo session ke nilai label section contact selesai</li>
   <li>mengubah data POS array associative</li>
-  
+  <li>menambahkan kode di proses php di baris 23-32
 </ol>
