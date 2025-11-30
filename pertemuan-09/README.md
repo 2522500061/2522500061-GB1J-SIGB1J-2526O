@@ -20,5 +20,6 @@ Hari ini, KAMIS 27 NOVEMBER 2025, saya belajar :<br>
   <li>mengubah data POS array associative</li>
   <li>menambahkan kode di proses php di baris 23-32
   <li>update file index.php sesion biodata, $fieldConfig
+  <li>menambahkan kode setelah baris <h2> Tentang saya</h2>
   
 </ol>
