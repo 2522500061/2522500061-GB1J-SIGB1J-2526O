@@ -18,8 +18,8 @@ Hari ini, KAMIS 27 NOVEMBER 2025, saya belajar :<br>
   <li>echo session ke nilai label section contact</li>
   <li>echo session ke nilai label section contact selesai</li>
   <li>mengubah data POS array associative</li>
-  <li>menambahkan kode di proses php di baris 23-32
-  <li>update file index.php sesion biodata, $fieldConfig
-  <li>menambahkan kode setelah baris <h2> Tentang saya</h2>
-  
+  <li>menambahkan kode di proses php di baris 23-32</li>
+  <li>update file index.php sesion biodata, $fieldConfig</li>
+  <li>menambahkan kode setelah baris <h2> Tentang saya</h2></li>
+  <li>menghapus baris 130-140</li>
 </ol>
