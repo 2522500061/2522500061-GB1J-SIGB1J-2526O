@@ -25,5 +25,5 @@ Hari ini, KAMIS 27 NOVEMBER 2025, saya belajar :<br>
   <li>membuat file fungsi.php dan menambahkan kode</li>
   <li> menambahakan function format tanggal di file fungsi php </li>
   <li> menambahkan kode function tampilkanBiodata fi file fungsi php </li>
-
+  <li> menghapus baris 123-129 di file index.php dan menambahkan kode cukup 1 baris </li>
 </ol> 
