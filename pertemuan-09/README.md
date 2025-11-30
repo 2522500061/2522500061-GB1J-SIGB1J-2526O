@@ -22,4 +22,8 @@ Hari ini, KAMIS 27 NOVEMBER 2025, saya belajar :<br>
   <li>update file index.php sesion biodata, $fieldConfig</li>
   <li>menambahkan kode setelah baris <h2> Tentang saya</h2></li>
   <li>menghapus baris 130-140</li>
-</ol>
+  <li>membuat file fungsi.php dan menambahkan kode</li>
+  <li> menambahakan function format tanggal di file fungsi php </li>
+  <li> menambahkan kode function tampilkanBiodata fi file fungsi php </li>
+
+</ol> 
