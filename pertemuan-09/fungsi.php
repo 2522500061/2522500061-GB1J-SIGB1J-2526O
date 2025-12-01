@@ -16,6 +16,7 @@ function formatTanggal($tgl)
 
 function tampilkanBiodata($conf, $arr)
 {
+
     $html = "";
     foreach ($conf as $k => $v) {
         $label = $v["label"];
@@ -24,5 +25,5 @@ function tampilkanBiodata($conf, $arr)
      $html .= "<p><strong>{$label}</strong> {$nilai}{$suffix}</p>";
     }
     return $html;
-    
+
 }

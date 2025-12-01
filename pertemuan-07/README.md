@@ -15,6 +15,7 @@ Hari ini, selasa 8 November  2025, saya mempelajari:
     <li> menambahkan file penghancur.php </li>
     <li> menambahkan variabel session di file penghancur.php </li>
     <li> menambahkan variabel $aku untuk menampilkan paragraf di index.php</li>
+    <li> menambahkan if dan endif pada  form yang meghubungi</li>
     
 
 

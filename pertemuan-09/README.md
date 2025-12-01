@@ -27,4 +27,6 @@ Hari ini, KAMIS 27 NOVEMBER 2025, saya belajar :<br>
   <li> menambahkan kode function tampilkanBiodata fi file fungsi php </li>
   <li> menghapus baris 123-129 di file index.php dan menambahkan kode cukup 1 baris </li>
   <li> Menambahkan requere once DIR di file inde.php di baris paling awal file </li>
+  <li> Menambahkan kode arr kontak di file proses.php</li>
+  
 </ol> 
