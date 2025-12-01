@@ -161,8 +161,8 @@ endif;
 
       <section id="about">
       <h2>Tentang Saya</h2>
-      <?= tampilkankontak($fieldConfig,$kontak)?>
-    <section>
+      <?= tampilkankontak( $fieldConfig, $kontak)?>
+  </section>
 
 
 
