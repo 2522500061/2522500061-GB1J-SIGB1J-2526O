@@ -20,7 +20,10 @@ Hari ini, KAMIS 4 Desember  2025, saya belajar :<br>
   <li>extra bahan pertemuan 10 dan membuat file koneksi.php</li>
   <li>mengetik kode baru di file koneksi.php</li>
   <li>donlowd php my admin dan exstrak</li>
+  <li>mengetik query di kotak sql</li>
   
+  
+
 
 
 
