@@ -17,7 +17,10 @@ Hari ini, KAMIS 4 Desember  2025, saya belajar :<br>
   <li>tangkap session dari file proses selesai</li>
   <li>echo session ke nilai label section contact</li>
   <li>echo session ke nilai label section contact selesai</li>
-  <li>extra file bahan pertemuan 09 dan buat file koneksi.php</li>
+  <li>extra bahan pertemuan 10 dan membuat file koneksi.php</li>
+  <li>mengetik kode baru di file koneksi.php</li>
   
 
-</ol>
+
+<ol>
+
