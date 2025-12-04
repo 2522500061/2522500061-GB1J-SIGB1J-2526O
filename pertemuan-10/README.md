@@ -22,7 +22,11 @@ Hari ini, KAMIS 4 Desember  2025, saya belajar :<br>
   <li>donlowd php my admin dan exstrak</li>
   <li>mengetik query di kotak sql</li>
   <li>membuat file read.php dan mengetik kode di file read.php</li>
+  <li>melakukan pengisian record di insert di php MyAdmin</li>
+  <li>melakukan duplikat file read.php dan menambahkan kode baru di read_inc.php</li>
   
+
+
 
   
 
