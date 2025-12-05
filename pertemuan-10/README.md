@@ -26,8 +26,6 @@ Hari ini, KAMIS 4 Desember  2025, saya belajar :<br>
   <li>melakukan duplikat file read.php dan menambahkan kode baru di read_inc.php</li>
   <li>merubah baris 146 di file index.php</li>
   <li>menghapus baris 131-141 di file index.php</li>
-  
-
-
+  <li>ekspor dan donlowd file localhost.sql di php.MyAdmin</li>
 <ol>
 
