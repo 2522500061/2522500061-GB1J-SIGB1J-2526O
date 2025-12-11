@@ -10,7 +10,9 @@ Hari ini, KAMIS 11 Desember  2025, saya belajar :<br>
   <li>mencopy file pertemuan-10 ke folder pertemuan-11</li>
   <li>update file fungsi php dan menambahkan kode baru redirect</li>
   <li>menambahkan kode baru untuk penangkap pesan di file index.php</li>
-  
+  <li>menambahkan kode untuk menampilkan flash message di file index.php</li>
+
+
 
 <ol>
 
