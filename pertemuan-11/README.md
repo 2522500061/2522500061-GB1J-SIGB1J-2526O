@@ -13,6 +13,7 @@ Hari ini, KAMIS 11 Desember  2025, saya belajar :<br>
   <li>menambahkan kode untuk menampilkan flash message di file index.php</li>
   <li>mengubah data dan menambahkan kode baru value di file index.php</li>
   <li>menambah kode baru di file proses.php</li>
+  <li>menambahkan kode no di file read.php</li>
   
 
 
