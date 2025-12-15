@@ -110,11 +110,11 @@ require_once __DIR__ . '/fungsi.php';
     </section>
 
     <?php
-    $flash_sukses = $_SESSION['flash_sukses'] ?? ''; #jika query sukses 
-    $flash_error  = $_SESSION['flash_error'] ?? ''; #jika ada error 
-    $old          = $_SESSION['old'] ??  []; #untuk nilai lama form 
+    $flash_sukses = $_SESSION['flash_sukses'] ?? ''; 
+    $flash_error  = $_SESSION['flash_error'] ?? ''; 
+    $old          = $_SESSION['old'] ??  []; 
 
-    unset($_SESSION['flash_sukses'], $_SESSION['flash_error'], $_SESSION['old']); #bersihkan 3 session ini 
+    unset($_SESSION['flash_sukses'], $_SESSION['flash_error'], $_SESSION['old']); 
     ?>
 
     <section id="contact">
@@ -135,12 +135,12 @@ require_once __DIR__ . '/fungsi.php';
       <form action="proses.php" method="POST">
 
         <label for="txtNama"><span>Nama:</span>
-          <input type="text" id="txtNama" name="txtNama" placeholder="Masukkan nama" required autocomplete="name">
+          <input type="text" id="txtNama" name="txtNama" placeholder="Masukkan nama" required autocomplete="name"
           value="<?= isset($old['nama']) ? htmlspecialchars($old['nama']) : ''?>">
         </label>
 
         <label for="txtEmail"><span>Email:</span>
-          <input type="email" id="txtEmail" name="txtEmail" placeholder="Masukkan email" required autocomplete="email">
+          <input type="email" id="txtEmail" name="txtEmail" placeholder="Masukkan email" required autocomplete="email"
           value="<?= isset($old['email']) ? htmlspecialchars($old['email']) : ''?>">
         </label>
 
