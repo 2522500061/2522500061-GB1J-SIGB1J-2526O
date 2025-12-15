@@ -16,6 +16,7 @@ Hari ini, KAMIS 11 Desember  2025, saya belajar :<br>
   <li>menambahkan kode no di file read.php</li>
   <li>menambahkan kode di file roses.php</li>
   <li>menambahkan kode input captcah sederhana pertanyaan 2 + 3 di file index.php</li>
+  <li>menambahkan field baru di tbl_tamu</li>
 
   
 
