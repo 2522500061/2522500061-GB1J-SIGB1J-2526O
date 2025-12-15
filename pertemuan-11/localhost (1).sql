@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Dec 05, 2025 at 06:52 AM
+-- Generation Time: Dec 15, 2025 at 06:30 PM
 -- Server version: 8.0.30
 -- PHP Version: 7.4.33
 
@@ -33,17 +33,19 @@ CREATE TABLE `tbl_tamu` (
   `cid` int NOT NULL,
   `cnama` varchar(100) DEFAULT NULL,
   `cemail` varchar(100) DEFAULT NULL,
-  `cpesan` text
+  `cpesan` text,
+  `dcreated_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
 -- Dumping data for table `tbl_tamu`
 --
 
-INSERT INTO `tbl_tamu` (`cid`, `cnama`, `cemail`, `cpesan`) VALUES
-(1, 'Savana Destiani', 'savanadestiani0@gmail.com ', 'hallo gess, hari ini saya menggunakan phpMyAdmin. '),
-(2, 'Septia Rahmadona', 'septirahma1@gmail.com', 'hari ini kami praktek di lab gizi '),
-(3, 'adelia putri', 'adeliaputrii12@gmail.com', 'hari ini kami belajar farmasetika dasar dan perhitungan dosis obat');
+INSERT INTO `tbl_tamu` (`cid`, `cnama`, `cemail`, `cpesan`, `dcreated_at`) VALUES
+(1, 'Savana Destiani', 'savanadestiani0@gmail.com ', 'hallo gess, hari ini saya menggunakan phpMyAdmin. ', '2025-12-16 01:04:18'),
+(2, 'Septia Rahmadona', 'septirahma1@gmail.com', 'hari ini kami praktek di lab gizi ', '2025-12-16 01:04:18'),
+(3, 'adelia putri', 'adeliaputrii12@gmail.com', 'hari ini kami belajar farmasetika dasar dan perhitungan dosis obat', '2025-12-16 01:04:18'),
+(4, 'septia', 'savanadestiani0@gmail.com', 'hallo ges nama aku septia temen savna', '2025-12-16 01:04:18');
 
 --
 -- Indexes for dumped tables
@@ -63,7 +65,7 @@ ALTER TABLE `tbl_tamu`
 -- AUTO_INCREMENT for table `tbl_tamu`
 --
 ALTER TABLE `tbl_tamu`
-  MODIFY `cid` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `cid` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
