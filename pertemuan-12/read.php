@@ -10,6 +10,7 @@ $no = 1;
     <tr>
 
         <th>NO</th>
+        <th>Aksi</th>
         <th>ID</th>
         <th>Nama</th>
         <th>Email</th>
