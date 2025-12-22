@@ -10,6 +10,9 @@ Hari ini, KAMIS 18 Desember  2025, saya belajar :<br>
   <li>menambahkan kode cid di-casting di file read.php</li>
   <li>menambahkan kode Aksi di file read.php</li>
   <li>menambahakn kode untuk menampilkan flash sukses dan flash eror di file read.php</li>
+  <li>membuat file baru edit.php</li>
+  <li>mengetik skrip untuk menampilkan form data lama yang dibaca dengan berdasarkan cip</li>
+  
   
 
 
