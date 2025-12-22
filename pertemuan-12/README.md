@@ -12,7 +12,10 @@ Hari ini, KAMIS 18 Desember  2025, saya belajar :<br>
   <li>menambahakn kode untuk menampilkan flash sukses dan flash eror di file read.php</li>
   <li>membuat file baru edit.php</li>
   <li>mengetik skrip untuk menampilkan form data lama yang dibaca dengan berdasarkan cip</li>
+  <li>membuat file baru proses_update . php</li>
+  <li>mengetik skrip untuk menyimpan perubahan menggunakan query UPDATE dan prepared statement</li>
   
+
   
 
 
