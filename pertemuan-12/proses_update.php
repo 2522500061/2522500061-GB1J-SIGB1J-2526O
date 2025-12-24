@@ -17,10 +17,10 @@ if (!$cid) {
     redirect_ke('edit.php?cid='. (int)$cid);
 }
 
-$nama     = bersihkan($_POST['txtNamaEd'] ?? '');
-$email    = bersihkan($_POST['txtEmailEd'] ?? '');
-$pesan    = bersihkan($_POST['txtPesanEd'] ?? '');
-$captcha  = bersihkan($_POST['txtCaptcha'] ?? '');
+$nama     = bersihkan($_POST['txtNama'] ?? '');
+$email    = bersihkan($_POST['txtEmail'] ?? '');
+$pesan    = bersihkan($_POST['txtPesan'] ?? '');
+$captcha  = bersihkan($_POST['captcha'] ?? '');
 
 $errors = [];
 
