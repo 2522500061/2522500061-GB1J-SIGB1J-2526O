@@ -7,7 +7,9 @@ NIM: 2522500061<br>
     <li>import sql bahan pertemuan-13</li>
     <li>menambah link delete di file read.php untuk ke file proses_delete.php</li>
     <li>mencopy file proses_update.php ke file proses_delete.php</li>
+    <li>menyesuaikan kode di proses_delete.php untuk proses hapus</li>
     
+
 
 
 </ol>
