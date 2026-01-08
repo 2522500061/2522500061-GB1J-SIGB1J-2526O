@@ -5,4 +5,9 @@ nama saya: Savana Destiani<br>
 NIM: 2522500061<br>
 <ol>
     <li>import sql bahan pertemuan-13</li>
+    <li>menambah link delete di file read.php untuk ke file proses_delete.php</li>
+    <li>mencopy file proses_update.php ke file proses_delete.php</li>
+    
+
+
 </ol>
