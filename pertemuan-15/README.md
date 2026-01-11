@@ -10,7 +10,12 @@ NIM: 2522500061<br>
     <li>membuat file read_inc_biodata.php di peretmuan-15</li>
     <li>mencopy file read_inc.php ke read_inc_biodta.php</li>
     <li>menambahkan kode baru di file read_inc_biodata.php</li>
+    <li>membuat file proses_biodata.php</li
+    <li>mencopy file proses.php ke file proses_biodata.php</li>
+    <li>menambhakan kode baru di file proses_biodata.php</li>
     
+
+
 
     
 </ol>
