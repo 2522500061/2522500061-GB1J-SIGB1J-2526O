@@ -13,7 +13,9 @@ NIM: 2522500061<br>
     <li>membuat file proses_biodata.php</li
     <li>mencopy file proses.php ke file proses_biodata.php</li>
     <li>menambhakan kode baru di file proses_biodata.php</li>
+    <li>menambahkan kode di file index.phhp</li>
     
+
 
 
 
