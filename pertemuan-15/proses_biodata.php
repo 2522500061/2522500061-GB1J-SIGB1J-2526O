@@ -1,12 +1,13 @@
 <?php
 session_start();
-require __DIR__ . './koneksi.php';
+require __DIR__ . '/koneksi.php';
 require_once __DIR__ . '/fungsi.php';
 
 #cek method form, hanya izinkan POST
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
   $_SESSION['flash_error'] = 'Akses tidak valid.';
-  redirect_ke('index.php#contact');
+  redirect_ke('index.php#biodata');
+    exit;   
 }
 
 #ambil dan bersihkan nilai dari form
@@ -14,7 +15,7 @@ $nim  = bersihkan($_POST['txtNim']  ?? '');
 $nama = bersihkan($_POST['txtNmLengkap'] ?? '');
 $tempat = bersihkan($_POST['txtT4Lhr'] ?? '');
 $tanggal = bersihkan($_POST['txtTglLhr'] ?? '');
-$hobi = bersihkan($_POST['"txtHobi'] ?? '');
+$hobi = bersihkan($_POST['txtHobi'] ?? '');
 $pasangan = bersihkan($_POST['txtPasangan'] ?? '');
 $pekerjaan = bersihkan($_POST['txtKerja'] ?? '');
 $ortu = bersihkan($_POST['txtNmOrtu'] ?? '');
@@ -57,24 +58,17 @@ if ($ortu === '') {
   $errors[] = 'Nama orang tua wajib diisi.';
 }
 
-if ($kaka === '') {
-  $errors[] = 'Nama kaka wajib diisi.';
+if ($kakak === '') {
+  $errors[] = 'Nama kakak wajib diisi.';
 }
 
 if ($adik === '') {
   $errors[] = 'Nama adik wajib diisi.';
 }
 
-
-
-
-
-
 if (mb_strlen($nama) < 3) {
   $errors[] = 'Nama minimal 3 karakter.';
 }
-
-
 
 /*
 kondisi di bawah ini hanya dikerjakan jika ada error, 
@@ -96,6 +90,7 @@ if (!empty($errors)) {
 
   $_SESSION['flash_error'] = implode('<br>', $errors);
   redirect_ke('index.php#biodata');
+    exit();
 }
 
 #menyiapkan query INSERT dengan prepared statement
@@ -109,6 +104,7 @@ if (!$stmt) {
   #jika gagal prepare, kirim pesan error ke pengguna (tanpa detail sensitif)
   $_SESSION['flash_error'] = 'Terjadi kesalahan sistem (prepare gagal).';
   redirect_ke('index.php#biodata');
+  exit();
 }
 #bind parameter dan eksekusi (s = string)
 mysqli_stmt_bind_param($stmt, "ssssssssss",
@@ -127,11 +123,12 @@ mysqli_stmt_bind_param($stmt, "ssssssssss",
 if (mysqli_stmt_execute($stmt)) { #jika berhasil, kosongkan old value, beri pesan sukses
   unset($_SESSION['old_biodata']);
   $_SESSION['flash_sukses'] = 'Terima kasih, data Anda sudah tersimpan.';
-  redirect_ke('index.php#contact'); #pola PRG: kembali ke form / halaman home
+  redirect_ke('index.php#biodata'); #pola PRG: kembali ke form / halaman home
+  exit();
 } else { #jika gagal, simpan kembali old value dan tampilkan error umum
   $_SESSION['flash_error'] = 'Data gagal disimpan. Silakan coba lagi.';
+  redirect_ke('index.php#biodata');
+  exit();
 }
 #tutup statement
 mysqli_stmt_close($stmt);
-
- redirect_ke('index.php#biodata');
