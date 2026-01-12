@@ -36,7 +36,13 @@
     <th>No</th>
     <th>Aksi</th>
     <th>ID</th>
-    <th>Nama</th>
+    <th>Nama Lengkap</th>
+    <th>tempat lahir</th>
+    <th>tanggal lahir</th>
+    
+    
+
+
     <th>Email</th>
     <th>Pesan</th>
     <th>Created At</th>
