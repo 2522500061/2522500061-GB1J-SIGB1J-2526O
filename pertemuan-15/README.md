@@ -19,14 +19,6 @@ NIM: 2522500061<br>
     <li>membuat file baru proses_delete_biodata.php dan proses_update_biodata.php</li>
     <li>menambahkan kode baru di file read_biodata.php</li>
     <li>memperbaiki file index.php</li>
-    
-
-    
-
-
-
-
-
-    
+    <li>perbaiki</li>
 </ol>
 
