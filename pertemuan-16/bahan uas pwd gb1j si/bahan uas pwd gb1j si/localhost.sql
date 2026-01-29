@@ -5,7 +5,7 @@
 -- Host: localhost:3306
 -- Generation Time: Jan 07, 2026 at 03:47 AM
 -- Server version: 8.0.30
--- PHP Version: 7.4.19
+-- PWA Version: 7.4.19
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -20,7 +20,7 @@ SET time_zone = "+00:00";
 --
 -- Database: `db_pwd2025`
 --
-CREATE DATABASE IF NOT EXISTS `db_pwd2025` DEFAULT CHARACTER SET utf8mb4;
+CREATE DATABASE IF NOT EXISTS `db_pwd2025` DEFAULT CHARACTER SET utf8mb4 ;
 USE `db_pwd2025`;
 
 -- --------------------------------------------------------
