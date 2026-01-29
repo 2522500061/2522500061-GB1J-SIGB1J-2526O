@@ -3,7 +3,7 @@
   require 'koneksi.php';
   require 'fungsi.php';
 
-  $sql = "SELECT * FROM tbl_tamu ORDER BY cid DESC";
+  $sql = "SELECT * FROM tbl_biodata_anggota ORDER BY cid DESC";
   $q = mysqli_query($conn, $sql);
   if (!$q) {
     die("Query error: " . mysqli_error($conn));
@@ -36,9 +36,16 @@
     <th>No</th>
     <th>Aksi</th>
     <th>ID</th>
-    <th>Nama</th>
-    <th>Email</th>
-    <th>Pesan</th>
+    <th>noanngota</th>
+    <th>nama</th>
+    <th>jabatan</th>
+    <th>tanggal</th>
+    <th>skil</th>
+    <th>gaji</th>
+    <th>nowa</th>
+    <th>batalion</th>
+    <th>bb</th>
+    <th>tb</th>
     <th>Created At</th>
   </tr>
   <?php $i = 1; ?>
@@ -47,11 +54,19 @@
       <td><?= $i++ ?></td>
       <td>
         <a href="edit.php?cid=<?= (int)$row['cid']; ?>">Edit</a>
-        <a onclick="return confirm('Hapus <?= htmlspecialchars($row['cnama']); ?>?')" href="proses_delete.php?cid=<?= (int)$row['cid']; ?>">Delete</a>
+        <a onclick="return confirm('Hapus <?= htmlspecialchars($row['skodeanggota']); ?>?')" href="proses_delete.php?cid=<?= (int)$row['cid']; ?>">Delete</a>
       </td>
       <td><?= $row['cid']; ?></td>
-      <td><?= htmlspecialchars($row['cnama']); ?></td>
-      <td><?= htmlspecialchars($row['cemail']); ?></td>
+      <td><?= htmlspecialchars($row['snoanggota']); ?></td>
+      <td><?= htmlspecialchars($row['snama']); ?></td>
+      <td><?= htmlspecialchars($row['sjabatan']); ?></td>
+      <td><?= htmlspecialchars($row['stanggal']); ?></td>
+      <td><?= htmlspecialchars($row['sskil']); ?></td>
+      <td><?= htmlspecialchars($row['sgaji']); ?></td>
+      <td><?= htmlspecialchars($row['snowa']); ?></td>
+      <td><?= htmlspecialchars($row['sbatalion']); ?></td>
+      <td><?= htmlspecialchars($row['sbb']); ?></td>
+      <td><?= htmlspecialchars($row['stb']); ?></td>
       <td><?= nl2br(htmlspecialchars($row['cpesan'])); ?></td>
       <td><?= formatTanggal(htmlspecialchars($row['dcreated_at'])); ?></td>
     </tr>
