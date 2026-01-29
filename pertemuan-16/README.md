@@ -8,4 +8,5 @@ NIM: 2522500061<br>
     <li> membuat file baru read_anggota_inc.php</li>
     <li> mencopy file read.php ke read_anggota.php</li>
     <li> menambahkan kode di baris 34,dan 60 di file read_anggota.php</li>
-    <>
+    <li> mencopy file read_inc.php ke file read_anggota_inc.php</li>
+    
